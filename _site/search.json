@@ -1,68 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PvSeroApp: A Sero-Surveillance Tool",
-    "section": "",
-    "text": "This R Shiny Application is a sero-surveillance tool to streamline the processing of raw serological data generated from a multiplex serological assay, generate quality control reports and then apply a machine learning model to classify the sero-status of individuals."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This analytical tool was developed to streamline the processing of serological data generated using a validated high-throughput multiplex serological assay for measuring antibodies to Plasmodium vivax (Longley et al 2020). This tool also aims to make the downstream processing, quality control, and interpretation of the raw data generated from this serological assay accessible to all researchers without the need for a specialist background in statistical methods and advanced programming."
-  },
-  {
-    "objectID": "index.html#graphical-overview-of-the-web-application",
-    "href": "index.html#graphical-overview-of-the-web-application",
-    "title": "PvSeroApp: A Sero-Surveillance Tool",
-    "section": "Graphical Overview of the Web Application",
-    "text": "Graphical Overview of the Web Application\n\n\n\nKey R Packages used in the Development of this Application:\n\nshiny\nshiny.fluent\ntidymodels\ntidyverse\nreadxl\nplotly\njanitor\nDT\nrmarkdown"
-  },
-  {
-    "objectID": "index.html#acknowledgements",
-    "href": "index.html#acknowledgements",
-    "title": "PvSeroApp: A Sero-Surveillance Tool",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nThe code and scripts used to develop this R Shiny web application are available on GitHub. The scripts and functions used in this application were developed by Lauren Smith and Dionne Argyropoulos, with contributions from the following researchers:\n\nDionne Argyropoulos, WEHI (App development)\nLauren Smith, WEHI (classification algorithm development)\nConnie Li Wai Suen, WEHI (original 5-parameter logistic model development for conversion of MFI to RAU for PNG Pool Standard Curve)\nEamon Conway for ongoing advice, WEHI (5-parameter logistic model development for conversion of MFI to RAU for Ethiopian Pool Standard Curve)\nThomas Obadia, Institut Pasteur (development of serological classification algorithm, application scripts and functions for P. vivax)\nShazia Ruybal-Pesántez, WEHI* (application scripts and functions for SARS-Cov-2)\nNarimane Nekkab** and Michael White, Institut Pasteur (original development of serological classification algorithm for P. vivax)\n\nCurrent address: *Imperial College London; **Swiss Tropical and Public Health Institute.\nMany thanks to Pailene Lim, Anju Abraham, Macie Lamont, Caitlin Bourke and Nick Walker for trailing and providing feedback on this tool.\nThis work was conducted under supervision of Rhea Longley and Ivo Mueller."
-  },
-  {
-    "objectID": "index.html#funding",
-    "href": "index.html#funding",
-    "title": "PvSeroApp: A Sero-Surveillance Tool",
-    "section": "Funding",
-    "text": "Funding\nWe acknowledge grant funding from the Bill and Melinda Gates Foundation (INV-051542), the WEHI Global Impact Fund, and a Ramaciotti Health Investment Grant (2022HIG52), to support development of this RShiny App."
-  },
-  {
-    "objectID": "index.html#key-r-packages-used-in-the-development-of-this-application",
-    "href": "index.html#key-r-packages-used-in-the-development-of-this-application",
-    "title": "PvSeroApp: A Sero-Surveillance Tool",
-    "section": "Key R Packages used in the Development of this Application",
-    "text": "Key R Packages used in the Development of this Application"
-  },
-  {
-    "objectID": "about.html#acknowledgements",
-    "href": "about.html#acknowledgements",
-    "title": "About",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nThe code and scripts used to develop this R Shiny web application are available on GitHub. The scripts and functions used in this application were developed by Lauren Smith and Dionne Argyropoulos, with contributions from the following researchers:\n\nDionne Argyropoulos, WEHI (App development)\nLauren Smith, WEHI (classification algorithm development)\nConnie Li Wai Suen, WEHI (original 5-parameter logistic model development for conversion of MFI to RAU for PNG Pool Standard Curve)\nEamon Conway for ongoing advice, WEHI (5-parameter logistic model development for conversion of MFI to RAU for Ethiopian Pool Standard Curve)\nThomas Obadia, Institut Pasteur (development of serological classification algorithm, application scripts and functions for P. vivax)\nShazia Ruybal-Pesántez, WEHI* (application scripts and functions for SARS-Cov-2)\nNarimane Nekkab** and Michael White, Institut Pasteur (original development of serological classification algorithm for P. vivax)\n\nCurrent address: *Imperial College London; **Swiss Tropical and Public Health Institute.\nMany thanks to Pailene Lim, Anju Abraham, Macie Lamont, Caitlin Bourke and Nick Walker for trailing and providing feedback on this tool.\nThis work was conducted under supervision of Rhea Longley and Ivo Mueller."
-  },
-  {
-    "objectID": "about.html#funding",
-    "href": "about.html#funding",
-    "title": "About",
-    "section": "Funding",
-    "text": "Funding\nWe acknowledge grant funding from the Bill and Melinda Gates Foundation (INV-051542), the WEHI Global Impact Fund, and a Ramaciotti Health Investment Grant (2022HIG52), to support development of this RShiny App."
-  },
-  {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
-    "title": "PvSeroApp: A Sero-Surveillance Tool",
-    "section": "",
-    "text": "Key R Packages used in the Development of this Application:\n\nshiny\nshiny.fluent\ntidymodels\ntidyverse\nreadxl\nplotly\njanitor\nDT\nrmarkdown"
-  },
-  {
     "objectID": "theapp.html",
     "href": "theapp.html",
     "title": "The App",
@@ -98,10 +35,45 @@
     "text": "Data Visualisation\nThis web application has in-built data visualisation capabilities that allow you to explore your data as shown in the video below."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PvSeroApp: A Sero-Surveillance Tool",
+    "section": "",
+    "text": "This R Shiny Application is a sero-surveillance tool to streamline the processing of raw serological data generated from a multiplex serological assay, generate quality control reports and then apply a machine learning model to classify the sero-status of individuals."
+  },
+  {
+    "objectID": "index.html#graphical-overview-of-the-web-application",
+    "href": "index.html#graphical-overview-of-the-web-application",
+    "title": "PvSeroApp: A Sero-Surveillance Tool",
+    "section": "Graphical Overview of the Web Application",
+    "text": "Graphical Overview of the Web Application\n\n\n\nKey R Packages used in the Development of this Application:\n\nshiny\nshiny.fluent\ntidymodels\ntidyverse\nreadxl\nplotly\njanitor\nDT\nrmarkdown"
+  },
+  {
     "objectID": "index.html#important-links",
     "href": "index.html#important-links",
     "title": "PvSeroApp: A Sero-Surveillance Tool",
     "section": "Important Links",
     "text": "Important Links\nFor any questions or comments on the GitHub source code, please see the PvSeroApp GitHub repository.\nIf you are interested in PvSeroTaT as a sero-surveillance tool please email Rhea Longley or Ivo Mueller."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This analytical tool was developed to streamline the processing of serological data generated using a validated high-throughput multiplex serological assay for measuring antibodies to Plasmodium vivax (Longley et al 2020). This tool also aims to make the downstream processing, quality control, and interpretation of the raw data generated from this serological assay accessible to all researchers without the need for a specialist background in statistical methods and advanced programming."
+  },
+  {
+    "objectID": "about.html#acknowledgements",
+    "href": "about.html#acknowledgements",
+    "title": "About",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThe code and scripts used to develop this R Shiny web application are available on GitHub. The scripts and functions used in this application were developed by Lauren Smith and Dionne Argyropoulos, with contributions from the following researchers:\n\nDionne Argyropoulos, WEHI (App development)\nLauren Smith, WEHI (classification algorithm development)\nConnie Li Wai Suen, WEHI (original 5-parameter logistic model development for conversion of MFI to RAU for PNG Pool Standard Curve)\nEamon Conway for ongoing advice, WEHI (5-parameter logistic model development for conversion of MFI to RAU for Ethiopian Pool Standard Curve)\nThomas Obadia, Institut Pasteur (development of serological classification algorithm, application scripts and functions for P. vivax)\nShazia Ruybal-Pesántez, WEHI* (application scripts and functions for SARS-Cov-2)\nNarimane Nekkab** and Michael White, Institut Pasteur (original development of serological classification algorithm for P. vivax)\n\nCurrent address: *Imperial College London; **Swiss Tropical and Public Health Institute.\nMany thanks to Pailene Lim, Anju Abraham, Macie Lamont, Caitlin Bourke and Nick Walker for trailing and providing feedback on this tool.\nThis work was conducted under supervision of Rhea Longley and Ivo Mueller."
+  },
+  {
+    "objectID": "about.html#funding",
+    "href": "about.html#funding",
+    "title": "About",
+    "section": "Funding",
+    "text": "Funding\nWe acknowledge grant funding from the Bill and Melinda Gates Foundation (INV-051542), the WEHI Global Impact Fund, and a Ramaciotti Health Investment Grant (2022HIG52), to support development of this RShiny App."
   }
 ]
