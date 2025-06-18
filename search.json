@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "theapp.html",
+    "href": "theapp.html",
+    "title": "The App",
+    "section": "",
+    "text": "This video walks you through the data entry component of the application.\n\nFirst, you add the (i) name of the experiment and (ii) date when the experiment took place which will be retained to name the subsequent figures and files generated in the app.\nYou can add any experiment notes that might be necessary for the quality control check, which will be displayed in the PDF output of the QC report.\nNext, the user selects which Luminex platform was used to generate the data, as these machines export in different formats.\nLastly, the user will upload their chosen raw Luminex data files (multiple .csv or .xlsx files accepted) and the 96 well plate layout (one master .xlsx file with multiple tabs accepted).\n\n\nThe output of the data input section involves the “Check Raw Data” tab which will print the data files without any data manipulation, the “Check Run Info” which is the generated from the Luminex machine that is printed at the top of the raw Luminex exported data, and lastly the “Check Plate Layout” tab which will print the tabs of the 96 well plates. These steps are more of a “sanity” check to ensure that the inputted files were correct and also were compatible with the application moving forward.\nThe tabs below contain sample information about what you can view in each section on the app.\n\nCheck Raw DataCheck Run InfoCheck Plate Layout\n\n\nHere, you can cross-check that the raw data file/s that you uploaded were correct by looking at the “Raw data filename/s” (highlighted here in a red box and arrow).\n\n\n\nThe “Check Run Info” tab can also be used to only look at run specifications and check that they are expected. You can check that the Batch, ProtocolName and Sample Volume are correct and labeled as you expect them to be. In the case of the example data, the Batch should be labeled “Example Plate”, the Protocol should be labeled “PvSeroTaT_v1.0”, and the Sample Volume should be “50uL” as we can see in the right hand side image here.\n\n\n\nYou can click on the “Check Plate Layout” tab to make sure the plate layout looks as expected. It is very important to make sure your samples are labeled correctly so that they are interpreted correctly by the app. You can also cross-check that the plate layout file you uploaded was the correct one, by looking at the “Plate Layout Filename” directly under the tab."
+  },
+  {
+    "objectID": "theapp.html#inputting-data",
+    "href": "theapp.html#inputting-data",
+    "title": "The App",
+    "section": "",
+    "text": "This video walks you through the data entry component of the application.\n\nFirst, you add the (i) name of the experiment and (ii) date when the experiment took place which will be retained to name the subsequent figures and files generated in the app.\nYou can add any experiment notes that might be necessary for the quality control check, which will be displayed in the PDF output of the QC report.\nNext, the user selects which Luminex platform was used to generate the data, as these machines export in different formats.\nLastly, the user will upload their chosen raw Luminex data files (multiple .csv or .xlsx files accepted) and the 96 well plate layout (one master .xlsx file with multiple tabs accepted).\n\n\nThe output of the data input section involves the “Check Raw Data” tab which will print the data files without any data manipulation, the “Check Run Info” which is the generated from the Luminex machine that is printed at the top of the raw Luminex exported data, and lastly the “Check Plate Layout” tab which will print the tabs of the 96 well plates. These steps are more of a “sanity” check to ensure that the inputted files were correct and also were compatible with the application moving forward.\nThe tabs below contain sample information about what you can view in each section on the app.\n\nCheck Raw DataCheck Run InfoCheck Plate Layout\n\n\nHere, you can cross-check that the raw data file/s that you uploaded were correct by looking at the “Raw data filename/s” (highlighted here in a red box and arrow).\n\n\n\nThe “Check Run Info” tab can also be used to only look at run specifications and check that they are expected. You can check that the Batch, ProtocolName and Sample Volume are correct and labeled as you expect them to be. In the case of the example data, the Batch should be labeled “Example Plate”, the Protocol should be labeled “PvSeroTaT_v1.0”, and the Sample Volume should be “50uL” as we can see in the right hand side image here.\n\n\n\nYou can click on the “Check Plate Layout” tab to make sure the plate layout looks as expected. It is very important to make sure your samples are labeled correctly so that they are interpreted correctly by the app. You can also cross-check that the plate layout file you uploaded was the correct one, by looking at the “Plate Layout Filename” directly under the tab."
+  },
+  {
+    "objectID": "theapp.html#quality-control",
+    "href": "theapp.html#quality-control",
+    "title": "The App",
+    "section": "Quality Control",
+    "text": "Quality Control\nThis section allows you to check the quality of the Luminex run, you can navigate each tab individually and also click the “Download” tab to download your processed sample data, the standard curve values and the quality control report. All of the plots in the “Quality Control” section are included in the QC report (.pdf) when downloaded."
+  },
+  {
+    "objectID": "theapp.html#classification",
+    "href": "theapp.html#classification",
+    "title": "The App",
+    "section": "Classification",
+    "text": "Classification\nThe built-in classification algorithm in this application should only be applied to data generated from the PvSeroTaT Multi-Antigen Luminex Assay. The results from the classification are displayed in an interactive table that can be explored directly within the app and/or the data can also be downloaded in .csv format in the adjacent Download Data tab. The exposure status (positive/negative) is displayed for each sample and for all classifiers. Navigate to different pages using the numbers to view the data for all samples."
+  },
+  {
+    "objectID": "theapp.html#data-visualisation",
+    "href": "theapp.html#data-visualisation",
+    "title": "The App",
+    "section": "Data Visualisation",
+    "text": "Data Visualisation\nThis web application has in-built data visualisation capabilities that allow you to explore your data as shown in the video below."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PvSeroApp: A Sero-Surveillance Tool",
+    "section": "",
+    "text": "This R Shiny Application is a sero-surveillance tool to streamline the processing of raw serological data generated from a multiplex serological assay, generate quality control reports and then apply a machine learning model to classify the sero-status of individuals."
+  },
+  {
+    "objectID": "index.html#graphical-overview-of-the-web-application",
+    "href": "index.html#graphical-overview-of-the-web-application",
+    "title": "PvSeroApp: A Sero-Surveillance Tool",
+    "section": "Graphical Overview of the Web Application",
+    "text": "Graphical Overview of the Web Application\n\n\n\nKey R Packages used in the Development of this Application:\n\nshiny\nshiny.fluent\ntidymodels\ntidyverse\nreadxl\nplotly\njanitor\nDT\nrmarkdown"
+  },
+  {
+    "objectID": "index.html#important-links",
+    "href": "index.html#important-links",
+    "title": "PvSeroApp: A Sero-Surveillance Tool",
+    "section": "Important Links",
+    "text": "Important Links\nFor any questions or comments on the GitHub source code, please see the PvSeroApp GitHub repository.\nIf you are interested in PvSeroTaT as a sero-surveillance tool please email Rhea Longley or Ivo Mueller."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This analytical tool was developed to streamline the processing of serological data generated using a validated high-throughput multiplex serological assay for measuring antibodies to Plasmodium vivax (Longley et al 2020). This tool also aims to make the downstream processing, quality control, and interpretation of the raw data generated from this serological assay accessible to all researchers without the need for a specialist background in statistical methods and advanced programming."
+  },
+  {
+    "objectID": "about.html#acknowledgements",
+    "href": "about.html#acknowledgements",
+    "title": "About",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThe code and scripts used to develop this R Shiny web application are available on GitHub. The scripts and functions used in this application were developed by Lauren Smith and Dionne Argyropoulos, with contributions from the following researchers:\n\nDionne Argyropoulos, WEHI (App development)\nLauren Smith, WEHI (classification algorithm development)\nConnie Li Wai Suen, WEHI (original 5-parameter logistic model development for conversion of MFI to RAU for PNG Pool Standard Curve)\nEamon Conway for ongoing advice, WEHI (5-parameter logistic model development for conversion of MFI to RAU for Ethiopian Pool Standard Curve)\nThomas Obadia, Institut Pasteur (development of serological classification algorithm, application scripts and functions for P. vivax)\nShazia Ruybal-Pesántez, WEHI* (application scripts and functions for SARS-Cov-2)\nNarimane Nekkab** and Michael White, Institut Pasteur (original development of serological classification algorithm for P. vivax)\n\nCurrent address: *Imperial College London; **Swiss Tropical and Public Health Institute.\nMany thanks to Pailene Lim, Anju Abraham, Macie Lamont, Caitlin Bourke and Nick Walker for trailing and providing feedback on this tool.\nThis work was conducted under supervision of Rhea Longley and Ivo Mueller."
+  },
+  {
+    "objectID": "about.html#funding",
+    "href": "about.html#funding",
+    "title": "About",
+    "section": "Funding",
+    "text": "Funding\nWe acknowledge grant funding from the Bill and Melinda Gates Foundation (INV-051542), the WEHI Global Impact Fund, and a Ramaciotti Health Investment Grant (2022HIG52), to support development of this RShiny App."
+  }
+]
