@@ -2,8 +2,26 @@
 title: "About"
 ---
 
-About this site
+This analytical tool was developed to streamline the processing of serological data generated using a validated high-throughput multiplex serological assay for measuring antibodies to *Plasmodium vivax* ([Longley et al 2020](https://www.nature.com/articles/s41591-020-0841-4)). This tool also aims to make the downstream processing, quality control, and interpretation of the raw data generated from this serological assay accessible to all researchers without the need for a specialist background in statistical methods and advanced programming.
 
-```{r}
-1 + 1
-```
+## Acknowledgements
+
+The code and scripts used to develop this R Shiny web application are available on [GitHub](https://github.com/dionnecargy/PvSeroApp). The scripts and functions used in this application were developed by Lauren Smith and Dionne Argyropoulos, with contributions from the following researchers:
+
+- Dionne Argyropoulos, WEHI (App development)
+- Lauren Smith, WEHI (classification algorithm development)
+- Connie Li Wai Suen, WEHI (original 5-parameter logistic model development for conversion of MFI to RAU for PNG Pool Standard Curve)
+- Eamon Conway for ongoing advice, WEHI (5-parameter logistic model development for conversion of MFI to RAU for Ethiopian Pool Standard Curve)
+- Thomas Obadia, Institut Pasteur (development of serological classification algorithm, application scripts and functions for P. vivax)
+- Shazia Ruybal-Pesántez, WEHI* (application scripts and functions for SARS-Cov-2)
+- Narimane Nekkab** and Michael White, Institut Pasteur (original development of serological classification algorithm for P. vivax)
+
+Current address: *Imperial College London; **Swiss Tropical and Public Health Institute.
+
+Many thanks to Pailene Lim, Anju Abraham, Macie Lamont, Caitlin Bourke and Nick Walker for trailing and providing feedback on this tool.
+
+This work was conducted under supervision of Rhea Longley and Ivo Mueller.
+
+## Funding 
+
+We acknowledge grant funding from the Bill and Melinda Gates Foundation (INV-051542), the WEHI Global Impact Fund, and a Ramaciotti Health Investment Grant (2022HIG52), to support development of this RShiny App.

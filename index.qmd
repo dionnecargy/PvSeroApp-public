@@ -1,11 +1,31 @@
 ---
-title: "PvSeroApp-public"
+title: "PvSeroApp: A Sero-Surveillance Tool"
+toc: false
 ---
 
-This is a Quarto website.
+This R Shiny Application is a sero-surveillance tool to streamline the processing of **raw** serological data generated from a multiplex serological assay, generate quality control reports and then apply a machine learning model to classify the sero-status of individuals. 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Graphical Overview of the Web Application
 
-```{r}
-1 + 1
-```
+![](images/pvseroapp_overview.png)
+
+::: column-margin
+Key R Packages used in the Development of this Application: 
+
+- [shiny](https://shiny.posit.co/)
+- [shiny.fluent](https://appsilon.github.io/shiny.fluent/)
+- [tidymodels](https://www.tidymodels.org/packages/)
+- [tidyverse](https://www.tidyverse.org/packages/)
+- [readxl](https://readxl.tidyverse.org/)
+- [plotly](https://plotly.com/r/getting-started/)
+- [janitor](https://sfirke.github.io/janitor/index.html)
+- [DT](https://rstudio.github.io/DT/)
+- [rmarkdown](https://rmarkdown.rstudio.com/docs/)
+
+:::
+
+## Important Links
+
+For any questions or comments on the GitHub source code, please see the [PvSeroApp GitHub repository](https://github.com/dionnecargy/PvSeroApp).
+
+If you are interested in PvSeroTaT as a sero-surveillance tool please email [Rhea Longley](longley.r@wehi.edu.au) or [Ivo Mueller](mueller@wehi.edu.au).
